@@ -3,7 +3,7 @@
 <p><span style="color: black;"> </span></p><p><span style="color: black;"> </span><strong style="color: black;">Task: Laboratory work</strong></p>
 <p><span style="color: black;"> </span></p><p><span style="color: black;"> </span><strong style="color: black;">Author: Vladimir Russu</strong></p>
 <p><strong style="color: black;">&nbsp;</strong></p><p><strong style="color: black;">&nbsp;</strong></p>
-<p><strong style="color: black;">Overview</strong></p><p><br></p>
+<p><strong style="color: black;">Overview</strong></p>
 <p>In this laboratory work project 4 creational design patterns are being implemented: Singleton, Builder, Prototype and Abstract Factory.
 The project are separated into 2 packages: "designPatterns" package and "company" pattern.</p>
 <p>In the "designPatterns" package there are interfaces and classes in which the implementations of design patterns are being created.
