@@ -1,6 +1,6 @@
 package designPatterns;
 
-public abstract class deviceAF {
+public abstract class deviceF {
     public abstract String getDisplay();
     public abstract String getMemory();
 

@@ -1,7 +1,7 @@
 package designPatterns;
 
 public class abstractFactory {
-    public static deviceAF getDevice(deviceAbstractFactory factory) {
+    public static deviceF getDevice(deviceAbstractFactory factory) {
         return factory.createDevice();
     }
 }

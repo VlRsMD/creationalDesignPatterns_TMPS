@@ -1,10 +1,10 @@
 package designPatterns;
 
-public class smartphoneAF extends deviceAF {
+public class smartwatchF extends deviceF {
     private String display;
     private String memory;
 
-    public smartphoneAF(String display, String memory){
+    public smartwatchF(String display, String memory){
         this.display=display;
         this.memory=memory;
     }

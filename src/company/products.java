@@ -1,9 +1,9 @@
 package company;
 import designPatterns.singletonCompanyName;
 import designPatterns.abstractFactory;
-import designPatterns.deviceAF;
-import designPatterns.smartphoneFactoryAF;
-import designPatterns.smartwatchFactoryAF;
+import designPatterns.deviceF;
+import designPatterns.smartphoneFactoryF;
+import designPatterns.smartwatchFactoryF;
 
 public class products {
     public static void main(String[] args) {
@@ -11,9 +11,9 @@ public class products {
         singletonCompanyName companyTitle = singletonCompanyName.getInstance();
         String title = companyTitle.name;
 
-        // types of products
-        deviceAF smartphone = abstractFactory.getDevice(new smartphoneFactoryAF("1920x1080","64 GB"));
-        deviceAF smartwatch = abstractFactory.getDevice(new smartwatchFactoryAF("320x320","32 GB"));
+        // types of products specified using Factory and Abstract Factory patterns
+        deviceF smartphone = abstractFactory.getDevice(new smartphoneFactoryF("1920x1080","64 GB"));
+        deviceF smartwatch = abstractFactory.getDevice(new smartwatchFactoryF("320x320","32 GB"));
 
         System.out.println("Company: "+title+"\n");
         System.out.println("Smartphone parameters: "+smartphone);

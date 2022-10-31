@@ -1,5 +1,5 @@
 package designPatterns;
 
 public interface deviceAbstractFactory {
-    public deviceAF createDevice();
+    public deviceF createDevice();
 }
